@@ -1,0 +1,27 @@
+body{
+    background-image:url(../src/istock-892494008.jpg) ;
+   background-size:100vw;
+    background-repeat: no-repeat;
+}
+.menu{
+    background-color: rgb(0, 0,0,0.4);
+    backdrop-filter: blur(10px);
+}
+.menu li{
+    height: 3rem;
+    padding: 0 15px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+.menu li:hover{
+   
+    background-color: white;
+    color: rgb(88, 83, 83);
+    box-shadow: 1px 1px 5px gray;
+    transform: scale(1.1);
+}
